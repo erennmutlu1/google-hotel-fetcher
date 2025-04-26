@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test Page</title>
+</head>
+<body>
+    <h1>API Test Page</h1>
+    <button id="testButton">Test API Connection</button>
+    <div id="result" style="margin-top: 20px; padding: 10px; border: 1px solid gray;"></div>
+
+    <script>
+        document.getElementById('testButton').addEventListener('click', async () => {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = 'Testing connection...';
+            
+            try {
+                const response = await fetch('http://localhost:7890/test');
+                const data = await response.json();
+                
+                resultDiv.innerHTML = `Success! Response: ${JSON.stringify(data)}`;
+            } catch (error) {
+                resultDiv.innerHTML = `Error: ${error.message}`;
+                console.error('Full error:', error);
+            }
+        });
+    </script>
+</body>
+</html>
