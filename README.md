@@ -210,11 +210,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 License
 
 This project is licensed under the MIT License.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue on GitHub or contact the repository owner.
-
----
-
-Made with ❤️ by [Your Name]
