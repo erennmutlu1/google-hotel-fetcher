@@ -13,7 +13,6 @@ A powerful application that fetches hotel data globally using the Google Places 
 - **Global Hotel Search**: Search for hotels in any city worldwide
 - **Grid-Based Search**: Advanced algorithm that expands search areas using coordinate grids
 - **Detailed Information**: Access ratings, reviews, photos, and addresses
-- **Beautiful UI**: Responsive design with both grid and table views
 - **Filtering & Sorting**: Filter by city, rating, and sort by various criteria
 - **MongoDB Storage**: Persistent storage of all hotel data
 - **Image Handling**: Robust handling of hotel photos with fallbacks
