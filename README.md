@@ -6,7 +6,6 @@
 
 A powerful application that fetches hotel data globally using the Google Places API, providing detailed information including ratings, photos, reviews, and more.
 
-![Dashboard Preview](https://via.placeholder.com/800x450/3498db/ffffff?text=Global+Hotel+Fetcher)
 
 ## ✨ Features
 
