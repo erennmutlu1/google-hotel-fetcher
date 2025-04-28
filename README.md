@@ -37,7 +37,7 @@ A powerful application that fetches hotel data globally using the Google Places 
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/erennmutlu1/google-hotel-fetcher.git]
+   git clone https://github.com/erennmutlu1/google-hotel-fetcher.git
    cd global-hotel-fetcher
    ```
 
